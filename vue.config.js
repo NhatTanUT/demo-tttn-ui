@@ -5,6 +5,6 @@ module.exports = {
  
     // options...
     devServer: {
-          proxy: 'https://demo-tttn.herokuapp.com/*',
+          proxy: 'https://127.0.0.1:3000',
       }
 }
