@@ -59,7 +59,7 @@ export default {
   methods: {
     ...mapMutations(["USER_LOGIN"]),
      login() {
-      axios.post("127.0.0.1:3000/login", {
+      axios.post("https://demo-tttn.herokuapp.com/login", {
           email: this.email,
           password: this.password,
         }, {

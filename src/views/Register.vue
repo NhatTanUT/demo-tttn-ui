@@ -79,7 +79,7 @@ export default {
     ...mapMutations(["ADD_USER"]),
 
     addUser() {
-      axios.post("127.0.0.1:3000//register", {
+      axios.post("https://demo-tttn.herokuapp.com/register", {
           email: this.email,
           password: this.password,
           firstName: this.firstname,
